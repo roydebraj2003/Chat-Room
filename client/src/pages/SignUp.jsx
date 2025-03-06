@@ -14,8 +14,8 @@ const SignUp = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Login data:", formData);
-    // Add logic for authentication here
-  };
+
+};
 
   return (
     <div className="h-screen w-screen flex justify-center ">
